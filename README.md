@@ -1,10 +1,13 @@
-# twasoul
+# Twasoul
+## Social Application
+Twasoul is a social application designed to connect users through real-time interactions. Built with modern technologies, it provides a seamless user experience for chatting and sharing content.
 
-Social Application
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+# Features
+### Firebase Authentication
+### Cloud Firestore
+### Firebase Storage
+### Real-time Chat
+### State Management with Cubit
 
 A few resources to get you started if this is your first Flutter project:
 
