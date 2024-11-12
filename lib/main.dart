@@ -19,7 +19,7 @@ Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   itemToast(text: 'onBackgroundMessage', state: ToastStates.success);
 }
 
-//social app
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
