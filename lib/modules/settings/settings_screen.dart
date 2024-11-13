@@ -197,9 +197,9 @@ class SettingsScreen extends StatelessWidget {
                       navigateTo(context, EditScreen());
                     },
                     style: ButtonStyle(
-                        side: MaterialStateProperty.all(
+                        side: WidgetStateProperty.all(
                             const BorderSide(color: Colors.grey, width: 0.5)),
-                        shape: MaterialStateProperty.all(
+                        shape: WidgetStateProperty.all(
                           const ContinuousRectangleBorder(
                             borderRadius: BorderRadiusDirectional.all(
                               Radius.circular(8.0),
@@ -214,53 +214,53 @@ class SettingsScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              const SizedBox(
-                height: 15.0,
-              ),
-              Row(
-                children: [
-                  OutlinedButton(
-                      style: ButtonStyle(
-                          side: MaterialStateProperty.all(
-                              const BorderSide(color: Colors.grey, width: 0.5)),
-                          shape: MaterialStateProperty.all(
-                            const ContinuousRectangleBorder(
-                              borderRadius: BorderRadiusDirectional.all(
-                                Radius.circular(8.0),
-                              ),
-                            ),
-                          )),
-                      onPressed: () {
-                        FirebaseMessaging.instance.subscribeToTopic('Target');
-                      },
-                      child: const Text(
-                        'subscribed',
-                        style: TextStyle(color: Colors.green),
-                      )),
-                  const SizedBox(
-                    width: 10.0,
-                  ),
-                  OutlinedButton(
-                      style: ButtonStyle(
-                          side: MaterialStateProperty.all(
-                              const BorderSide(color: Colors.grey, width: 0.5)),
-                          shape: MaterialStateProperty.all(
-                            const ContinuousRectangleBorder(
-                              borderRadius: BorderRadiusDirectional.all(
-                                Radius.circular(8.0),
-                              ),
-                            ),
-                          )),
-                      onPressed: () {
-                        FirebaseMessaging.instance
-                            .unsubscribeFromTopic('Target');
-                      },
-                      child: const Text(
-                        'unsubscribed',
-                        style: TextStyle(color: Colors.grey),
-                      )),
-                ],
-              ),
+              // const SizedBox(
+              //   height: 15.0,
+              // ),
+              // Row(
+              //   children: [
+              //     OutlinedButton(
+              //         style: ButtonStyle(
+              //             side: MaterialStateProperty.all(
+              //                 const BorderSide(color: Colors.grey, width: 0.5)),
+              //             shape: MaterialStateProperty.all(
+              //               const ContinuousRectangleBorder(
+              //                 borderRadius: BorderRadiusDirectional.all(
+              //                   Radius.circular(8.0),
+              //                 ),
+              //               ),
+              //             )),
+              //         onPressed: () {
+              //           FirebaseMessaging.instance.subscribeToTopic('Target');
+              //         },
+              //         child: const Text(
+              //           'subscribed',
+              //           style: TextStyle(color: Colors.green),
+              //         )),
+              //     const SizedBox(
+              //       width: 10.0,
+              //     ),
+              //     OutlinedButton(
+              //         style: ButtonStyle(
+              //             side: MaterialStateProperty.all(
+              //                 const BorderSide(color: Colors.grey, width: 0.5)),
+              //             shape: MaterialStateProperty.all(
+              //               const ContinuousRectangleBorder(
+              //                 borderRadius: BorderRadiusDirectional.all(
+              //                   Radius.circular(8.0),
+              //                 ),
+              //               ),
+              //             )),
+              //         onPressed: () {
+              //           FirebaseMessaging.instance
+              //               .unsubscribeFromTopic('Target');
+              //         },
+              //         child: const Text(
+              //           'unsubscribed',
+              //           style: TextStyle(color: Colors.grey),
+              //         )),
+              //   ],
+              // ),
             ],
           ),
         );
