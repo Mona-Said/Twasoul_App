@@ -21,7 +21,7 @@ Twasoul is a social application designed to connect users through real-time inte
   <img src="https://github.com/user-attachments/assets/7fab2b6b-da99-481d-bf3e-94e96a9753ac" width="300" style="margin-right: 20;" />
    &nbsp;
   <img src="https://github.com/user-attachments/assets/f4a3752e-7551-4715-84f5-882c63ebfc84" width="300" style="margin-right: 20;" />
-  &nbsp;
+   <hr/>
   <img src="https://github.com/user-attachments/assets/96332969-af63-4b0d-865c-e2d54fa5062c" width="300"  />
 </p>
 
